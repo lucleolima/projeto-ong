@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os projetos sociais da ONG Mãos que Ajudam e saiba como participar.">
+  <title>Projetos | ONG Mãos que Ajudam</title>
+</head>
+<body>
+
+  <header>
+    <picture>
+      <source srcset="imagens/logo.svg" type="image/svg+xml">
+      <img src="imagens/logo.png" alt="Logo da ONG Mãos que Ajudam" width="80" height="80">
+    </picture>
+    <p>ONG Mãos que Ajudam</p>
+
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1>Nossos projetos sociais</h1>
+    <p>
+      Cada projeto nasce de uma necessidade real da comunidade e é mantido com o apoio
+      de voluntários e doadores. Conheça as iniciativas em andamento.
+    </p>
+
+    <!-- Cada projeto é um <article>: um conteúdo independente, que faria sentido sozinho -->
+    <section id="projetos-ativos">
+      <h2>Projetos em andamento</h2>
+
+      <article id="projeto-educacao">
+        <h3>Aprender Juntos</h3>
+        <figure>
+          <!-- <picture>: o navegador usa o primeiro formato que suportar; o <img> em JPG é o fallback -->
+          <picture>
+            <source srcset="imagens/projeto-educacao.svg" type="image/svg+xml">
+            <source srcset="imagens/projeto-educacao.webp" type="image/webp">
+            <img src="imagens/projeto-educacao.jpg" alt="Ilustração de livros abertos" width="400" height="240">
+          </picture>
+          <figcaption>Aulas de reforço escolar no contraturno.</figcaption>
+        </figure>
+        <p>
+          Reforço escolar gratuito em português e matemática para crianças de 6 a 14 anos,
+          com acompanhamento individual e oficinas de leitura.
+        </p>
+
+        <h4>Como participar</h4>
+        <ul>
+          <li>Seja voluntário como educador(a) ou monitor(a)</li>
+          <li>Doe livros e material escolar</li>
+        </ul>
+      </article>
+
+      <article id="projeto-alimentacao">
+        <h3>Mesa Solidária</h3>
+        <figure>
+          <!-- <picture>: o navegador usa o primeiro formato que suportar; o <img> em JPG é o fallback -->
+          <picture>
+            <source srcset="imagens/projeto-alimentacao.svg" type="image/svg+xml">
+            <source srcset="imagens/projeto-alimentacao.webp" type="image/webp">
+            <img src="imagens/projeto-alimentacao.jpg" alt="Ilustração de uma tigela com alimentos" width="400" height="240">
+          </picture>
+          <figcaption>Distribuição mensal de cestas básicas.</figcaption>
+        </figure>
+        <p>
+          Arrecadação e distribuição de cestas básicas e refeições para famílias em
+          situação de vulnerabilidade, em parceria com mercados do bairro.
+        </p>
+
+        <h4>Como participar</h4>
+        <ul>
+          <li>Ajude na triagem e montagem das cestas</li>
+          <li>Doe alimentos não perecíveis</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="voluntariado">
+      <h2>Seja voluntário</h2>
+      <p>Doe seu tempo e seus conhecimentos. Veja como participar:</p>
+      <ol>
+        <li>Escolha o projeto com o qual mais se identifica.</li>
+        <li>Preencha o nosso <a href="cadastro.html">formulário de cadastro</a>.</li>
+        <li>Participe de uma conversa de acolhimento com nossa equipe.</li>
+        <li>Comece a atuar de acordo com a sua disponibilidade.</li>
+      </ol>
+    </section>
+
+    <section id="doacoes">
+      <h2>Faça uma doação</h2>
+      <p>Toda contribuição é aplicada diretamente nos projetos e prestada em contas no nosso relatório anual.</p>
+
+      <article id="doacao-financeira">
+        <h3>Doação financeira</h3>
+        <ul>
+          <li><strong>PIX:</strong> contato@maosqueajudam.org</li>
+          <li><strong>Transferência:</strong> Banco Exemplo, agência 0001, conta 12345-6</li>
+        </ul>
+      </article>
+
+      <article id="doacao-itens">
+        <h3>Doação de itens</h3>
+        <p>
+          Recebemos alimentos não perecíveis, livros e material escolar de segunda a sexta,
+          das 9h às 17h, no endereço informado no rodapé.
+        </p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <address>
+      ONG Mãos que Ajudam<br>
+      Rua das Flores, 123, Centro, São Paulo - SP<br>
+      E-mail: <a href="mailto:contato@maosqueajudam.org">contato@maosqueajudam.org</a><br>
+      Telefone: <a href="tel:+551130000000">(11) 3000-0000</a>
+    </address>
+    <p><small>&copy; 2026 ONG Mãos que Ajudam. Todos os direitos reservados.</small></p>
+  </footer>
+
+</body>
+</html>
